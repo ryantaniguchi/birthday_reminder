@@ -44,7 +44,7 @@ Q: Quit/Log Out
                 # Returns an error if any other entry is given.
                 else:
                     print("Invalid entry. Valid options are 'File' or 'Manually'.")
-        # Calls the dispaly_table function to show the current table.
+        # Calls the display_table function to show the current table.
         elif user_input == "B":
             display_table(database_connection, cursor)
         # Allows the user to search the table for entries, either by name or by birth month.
@@ -213,13 +213,11 @@ def display_name(database_connection, cursor):
 # Function to display the table.
 def display_table(database_connection, cursor):
 
-    # STRETCH GOAL
     try:
         # Count how many rows are in the table
         cursor.execute('select count(*) from birthday;')
         number_of_rows = cursor.fetchone()[0]
 
-        # STRETCH GOAL
         # Select all the data from the table so it can be printed in order of month
         cursor.execute('select * from birthday order by MONTH;')
 
