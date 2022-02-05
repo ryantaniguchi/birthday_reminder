@@ -222,7 +222,7 @@ def display_table(database_connection, cursor):
         cursor.execute('select * from birthday order by MONTH;')
 
         # Print the number of rows in the table.
-        print("There are", number_of_rows, "individuals in this table.")
+        print("\nThere are", number_of_rows, "individuals in this table.")
 
         # Print the table
         for i in cursor.fetchall():
