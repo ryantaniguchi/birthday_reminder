@@ -6,8 +6,6 @@ Users can enter information by either importing it from a csv file or through ma
 My purpose for writing this software was to help me improve my understanding of relational databases such as SQL and SQLite. In particular, I sought to become more comfortable with
 incorporating relational databases and relational database functionality into programs that I wrote.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
-
 Please use this link to watch a demonstration of this program: [Software Demo Video](http://youtube.link.goes.here)
 
 # Relational Database
